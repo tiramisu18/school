@@ -1,0 +1,47 @@
+.login-box{
+    width: 940px;
+    height: 390px;
+    box-shadow:0 1px 6px rgba(0,0,0,0.75);
+    border-radius: 3px;
+}
+.login-left{
+    float: left;
+    width: 520px;
+    height: 390px;
+    overflow: hidden;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.login-left-image{
+    width: 100%;
+    height: auto;
+}
+.login-left-image:hover{
+    opacity: 0.75;
+}
+.login-right{
+    width: 420px;
+    height: 390px;
+    overflow: hidden;
+    padding: 20;
+    background-color: #00002d;
+    /*background: linear-gradient(to bottom right, red , blue);*/
+    display: table;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.login-left::after, .login-right::after{
+    content: '';
+    height: 0;
+    display: none;
+    clear: both;
+    zoom: 1
+}
+.login-right-title{
+    color: white;
+    margin-left: 150px;
+}
+.login-right-content{
+    display: table-cell;
+    vertical-align: middle;
+}

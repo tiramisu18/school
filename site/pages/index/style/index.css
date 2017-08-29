@@ -1,0 +1,70 @@
+/*.contain{ 
+  width:300px;
+  height: 300px;
+  background: #a29e9e; 
+  position: relative;    
+}
+.contain::before{
+  content: '';
+  zoom: 1; 
+  display: block;
+  border-top: 15px solid rgba(0, 0, 0, 0);
+  width: 30px;
+  position: absolute;
+  left: 300px;
+  top: 135px;
+  border-left: 30px solid #a29e9e;
+  border-bottom: 15px solid rgba(0, 0, 0, 0);
+}*/
+.contain{
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.contain-fream{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #efdae6;
+  opacity: 0.75;
+  width: 50%;
+  height: 100%
+}
+.contain-repre{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 6px;
+  background: #000;
+  z-index: 800;
+}
+.contain1-box{ 
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  padding-right: 10px;
+}
+.contain1-content{
+  height: 100%;
+  background: url('../images/belfry.jpg') 50% 50% / cover no-repeat
+}
+.contain2-box{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  padding-right: 10px;
+}
+.contain2-content{
+  height: 100%;
+  background: url('../images/libraries.jpg') 50% 100% / cover no-repeat;
+}
+.contain2-text{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.contain-foot{
+  height: 300px;
+}
